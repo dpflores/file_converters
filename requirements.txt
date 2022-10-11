@@ -1,0 +1,2 @@
+ffmpeg 4.2.7
+sudo apt install ffmpeg
