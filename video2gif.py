@@ -11,9 +11,9 @@ def convert(args):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('input', type=str, default='test.mp4',
+    parser.add_argument('input', type=str, default='test.webm',
                         help='What is the input file')
-    parser.add_argument('output', type=str, default='test.webm',
+    parser.add_argument('output', type=str, default='test.gif',
                         help='What is the output file')
 
     args = parser.parse_args()
